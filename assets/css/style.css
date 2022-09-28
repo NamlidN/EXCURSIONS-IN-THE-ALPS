@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: c;
+
+}
+    @font-face {
+        font-family: p;
+        src: url("../fonts/Poppins-Regular.ttf");
+    }
+    @font-face {
+        font-family: c;
+        src: url("../fonts/Cinzel-Regular.ttf");
+    }
+.logo{
+    color: #999;
+    padding: 1rem 0 2rem 1rem;
+    font-size: medium;
+    
+}
+header section{
+    background-image: url("../img/headerphoto-1486312699619-be057cfc0342.avif");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.oben{
+padding: 11rem;
+color:#fff ;
+line-height:3rem;
+font-size: 2.5rem;
+}
+.firstsec{
+    color: #333;
+    padding: 0 6rem ;
+    text-align: center;
+}
+main section h2{
+    padding: 5rem ;
+    text-align: center;
+}
+.imm{
+    padding: 1rem;
+}
+.bilder{
+margin: 1rem;
+}
+.tour_dates{
+    color: #333;
+    padding: 0 6rem ;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.tour{
+    color: #333;
+    padding: 0 6rem ;
+    margin-bottom: 2rem;
+    font-family: p;
+}
+.soou::after{
+    content: "- SOULD OUT";
+    color: red;
+}
+.only::after{
+    content: "- ONLY 4 SPOTS AVAILABLE";
+    color: red;
+}
+.ava::after{
+    content: "-AVAILABLE";
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding: 2rem 6rem;
+    border-top: solid #ccc;
+}
+p{
+    font-family: p;
+}
+footer section img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem 1rem;
+    filter: grayscale(1);
+}
+footer section img:hover{
+    filter: grayscale(0);
+}
